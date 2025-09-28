@@ -13,6 +13,7 @@
         rows = <0>;
         events = <0>;
     };
+};
 
 &default_transform {
     row-offset = <14>;
@@ -49,4 +50,3 @@
     };
 };
 
-};
