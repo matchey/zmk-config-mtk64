@@ -45,7 +45,6 @@
         page-offset = <0>;
         display-offset = <0>;
         multiplex-ratio = <63>;
-        charge-pump-enable;
         flip-display;
         invert-display;
         prechargep = <0x22>;
