@@ -12,7 +12,7 @@
 
 &i2c0 {
     scl-gpios = <&xiao_d 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>; // D10 P1.15
-    sda-gpios = <&&xiao_d 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>; // D9  P1.14
+    sda-gpios = <&xiao_d 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>; // D9  P1.14
     status = "okay";
     ssd1306: oled@3c {
         compatible = "solomon,ssd1306fb";
