@@ -1,6 +1,19 @@
 #include "mtk64.dtsi"
 #include "mtk64_trackball.dtsi"
 
+/ {
+    chosen {
+        zmk,kscan = &mock_kscan;
+        zmk,physical-layout = &mtk64_physical_layout;
+    };
+
+    mock_kscan: mock_kscan_0 {
+        compatible = "zmk,kscan-mock";
+        columns = <0>;
+        rows = <0>;
+        events = <0>;
+    };
+
 &default_transform {
     row-offset = <14>;
 };
@@ -10,10 +23,17 @@
 };
 &xiao_serial { status = "disabled"; };
 
+&pinctrl {
+    i2c0_default: i2c0_default {
+        group1 {
+            psels = <NRF_PSEL(TWIM_SCL, 1, 15)>, <NRF_PSEL(TWIM_SDA, 1, 14)>;
+        };
+    };
+};
+
 &i2c0 {
-    scl-gpios = <&gpio0 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>; // D10 P1.15
-    sda-gpios = <&gpio0 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>; // D9  P1.14
     status = "okay";
+    pinctrl-0 = <&i2c0_default>;
     ssd1306: oled@3c {
         compatible = "solomon,ssd1306fb";
         reg = <0x3c>;
@@ -29,3 +49,4 @@
     };
 };
 
+};
