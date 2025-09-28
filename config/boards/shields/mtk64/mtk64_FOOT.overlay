@@ -3,6 +3,7 @@
 
 / {
     chosen {
+        zephyr,display = &oled;
         zmk,kscan = &mock_kscan;
         zmk,physical-layout = &mtk64_physical_layout;
     };
@@ -35,7 +36,7 @@
 &i2c0 {
     status = "okay";
     pinctrl-0 = <&i2c0_default>;
-    ssd1306: oled@3c {
+    oled: oled@3c {
         compatible = "solomon,ssd1306fb";
         reg = <0x3c>;
         width = <128>;
