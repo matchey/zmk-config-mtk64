@@ -11,8 +11,8 @@
 &xiao_serial { status = "disabled"; };
 
 &i2c0 {
-    scl-gpios = <&xiao_d 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>; // D10 P1.15
-    sda-gpios = <&xiao_d 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>; // D9  P1.14
+    scl-gpios = <&gpio0 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>; // D10 P1.15
+    sda-gpios = <&gpio0 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>; // D9  P1.14
     status = "okay";
     ssd1306: oled@3c {
         compatible = "solomon,ssd1306fb";
