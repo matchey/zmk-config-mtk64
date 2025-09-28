@@ -3,6 +3,7 @@
 
 / {
     chosen {
+        zephyr,display = &oled;
         zmk,kscan = &mock_kscan;
         zmk,physical-layout = &mtk64_physical_layout;
     };
@@ -47,6 +48,7 @@
         charge-pump-enable;
         flip-display;
         invert-display;
+        prechargep = <0x22>;
     };
 };
 
