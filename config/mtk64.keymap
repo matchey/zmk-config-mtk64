@@ -43,7 +43,7 @@
 
         default_layer {
             bindings = <
-&kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp LEFT_BRACKET  &kp LCTRL  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &lt 3 SEMICOLON  &kp SINGLE_QUOTE  &kp LSHFT  &mt LEFT_CONTROL Z  &mt LEFT_SHIFT X  &mt LEFT_ALT C  &mt LEFT_GUI V  &kp B  &kp LEFT_COMMAND  &kp ESCAPE  &kp N  &mt RIGHT_GUI M  &mt RIGHT_ALT COMMA  &mt RIGHT_SHIFT PERIOD  &mt RIGHT_CONTROL SLASH  &mt RIGHT_SHIFT BACKSLASH  &kp LALT  &kp LGUI  &lt 1 INT_MUHENKAN  &kp BACKSPACE  &kp ENTER  &lt 2 INT_HENKAN  &kp EQUAL  &kp RIGHT_BRACKET  &bt BT_PRV  &bt BT_NXT  &kp LEFT_ALT  &kp RIGHT_ALT  &none  &none  &lt 4 SPACE  &lt 4 SPACE  &mo 1  &mo 5  &mo 4  &mo 1  &mo 5  &mo 4  &mo 1  &mo 5  &mo 4
+&kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp LEFT_BRACKET  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp RIGHT_BRACKET  &mt LEFT_CONTROL GRAVE  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &lt 3 SEMICOLON  &kp SINGLE_QUOTE  &mt LEFT_SHIFT SLASH  &mt LEFT_CONTROL Z  &mt LEFT_SHIFT X  &mt LEFT_ALT C  &mt LEFT_GUI V  &kp B  &kp LEFT_COMMAND  &kp ESCAPE  &kp N  &mt RIGHT_GUI M  &mt RIGHT_ALT COMMA  &mt RIGHT_SHIFT PERIOD  &mt RIGHT_CONTROL MINUS  &mt RIGHT_SHIFT BACKSLASH  &kp LALT  &kp LGUI  &lt 1 SPACE  &lt 4 BACKSPACE  &lt 4 ENTER  &lt 2 SPACE  &kp EQUAL  &kp RIGHT_BRACKET  &bt BT_PRV  &bt BT_NXT  &kp LEFT_ALT  &kp ESCAPE  &none  &none  &lt 4 INT_MUHENKAN  &lt 4 INT_HENKAN  &mo 1  &mo 5  &mo 4  &mo 1  &mo 5  &mo 4  &mo 1  &mo 5  &mo 4
             >;
 
             sensor-bindings = <
@@ -54,13 +54,13 @@
 
         layer_1 {
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 5  &bt BT_CLR_ALL  &trans  &trans  &trans  &trans  &studio_unlock  &trans  &trans  &kp END  &trans  &trans  &trans  &trans  &trans  &kp TAB  &trans  &trans  &kp ESCAPE  &trans  &kp HOME  &trans  &kp DELETE  &trans  &trans  &kp BACKSPACE  &kp ENTER  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp KP_ENTER  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 5  &bt BT_CLR_ALL  &trans  &trans  &trans  &trans  &studio_unlock  &trans  &trans  &kp END  &trans  &trans  &trans  &trans  &trans  &kp TAB  &trans  &trans  &kp ESCAPE  &trans  &kp HOME  &trans  &kp DELETE  &trans  &trans  &kp BACKSPACE  &kp ENTER  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mt RIGHT_GUI KP_ENTER  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         layer_2 {
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &trans  &kp MINUS  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS  &trans  &trans  &trans  &trans  &trans  &kp F12  &trans  &kp SLASH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &kp PRINTSCREEN  &trans  &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD  &kp EQUAL  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &trans  &kp MINUS  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS  &trans  &trans  &trans  &trans  &trans  &kp F12  &trans  &kp SLASH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &kp PRINTSCREEN  &trans  &mt LEFT_CONTROL KP_NUMBER_0  &mt LEFT_SHIFT KP_NUMBER_1  &mt LEFT_ALT KP_NUMBER_2  &mt LEFT_GUI KP_NUMBER_3  &kp PERIOD  &kp EQUAL  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings =
@@ -81,7 +81,7 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp N7  &kp NUMBER_8  &kp NUMBER_9  &kp N0  &kp EQUAL  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &kp RIGHT_BRACKET  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp N7  &kp NUMBER_8  &kp NUMBER_9  &kp N0  &kp EQUAL  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &kp RIGHT_BRACKET  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp NUMBER_0  &mt RIGHT_GUI NUMBER_1  &mt RIGHT_ALT NUMBER_2  &mt RIGHT_SHIFT NUMBER_3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
