@@ -9,8 +9,15 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 
 &mt {
+    flavor = "tap-preferred";
+    quick-tap-ms = <0>;
+    tapping-term-ms = <190>;
+};
+
+&lt {
     flavor = "balanced";
     quick-tap-ms = <0>;
+    tapping-term-ms = <210>;
 };
 
 / {
