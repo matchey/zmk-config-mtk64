@@ -1,0 +1,4 @@
+# custom_processors/Kconfig
+
+config INPUT_PROCESSOR_DOMINANT_AXIS
+  def_bool y
