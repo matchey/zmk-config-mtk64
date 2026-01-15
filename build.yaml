@@ -26,5 +26,7 @@ include:
    shield: mtk64_L rgbled_adapter
  - board: xiao_ble
    shield: mtk64_FOOT rgbled_adapter
+#  - board: xiao_ble
+#    shield: mtk64_DONGLE prospector_adapter
  - board: xiao_ble
    shield: settings_reset

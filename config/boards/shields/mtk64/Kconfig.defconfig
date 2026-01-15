@@ -30,3 +30,13 @@ config ZMK_SPLIT
     default y
 
 endif
+
+if SHIELD_MTK64_DONGLE
+
+config ZMK_KEYBOARD_NAME
+    default "mtk64_DONGLE"
+
+config ZMK_SPLIT
+    default y
+
+endif
