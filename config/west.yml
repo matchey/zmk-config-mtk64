@@ -10,6 +10,12 @@ manifest:
       url-base: https://github.com/caksoylar
     - name: englmaxi
       url-base: https://github.com/englmaxi
+    # - name: carrefinho
+    #   url-base: https://github.com/carrefinho
+    # - name: janpfischer
+    #   url-base: https://github.com/janpfischer
+    - name: prospector
+      url-base: https://github.com/t-ogura
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -24,5 +30,15 @@ manifest:
     - name: zmk-dongle-display
       remote: mentako-ya
       revision: mentako_zephyr-4.1
+    # - name: prospector-zmk-module
+    #   remote: carrefinho
+    #   revision: core/zephyr-4-1 # xiao_ble instead of seeeduino_xiao_ble
+    # - name: zmk-dongle-screen
+    #   remote: janpfischer
+    #   revision: main
+    - name: prospector-zmk-module
+      remote: prospector
+      revision: v2.1.0  # Use v2.0.0 for ZMK ≤0.3 (Zephyr 3.x)
+      path: modules/prospector-zmk-module
   self:
     path: config
