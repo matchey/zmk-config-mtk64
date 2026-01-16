@@ -26,5 +26,7 @@ include:
    shield: mtk64_DONGLE rgbled_adapter dongle_display
    snippet: studio-rpc-usb-uart
    cmake-args: -DCONFIG_ZMK_STUDIO=y
+#  - board: xiao_ble
+#    shield: mtk64_DONGLE rgbled_adapter prospector_adapter
  - board: xiao_ble
    shield: settings_reset
