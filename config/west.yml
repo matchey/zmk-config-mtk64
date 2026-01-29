@@ -16,6 +16,8 @@ manifest:
     #   url-base: https://github.com/janpfischer
     - name: prospector
       url-base: https://github.com/t-ogura
+    - name: matchey
+      url-base: https://github.com/matchey
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -40,5 +42,8 @@ manifest:
       remote: prospector
       revision: v2.1.0  # Use v2.0.0 for ZMK ≤0.3 (Zephyr 3.x)
       path: modules/prospector-zmk-module
+    - name: zmk-input-processor-axis-constrain
+      remote: matchey
+      revision: main
   self:
     path: config

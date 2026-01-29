@@ -1,5 +1,6 @@
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <input/processors.dtsi>
+#include <axis-constrain.dtsi>
 
 &pinctrl {
     spi0_default: spi0_default {
@@ -67,6 +68,14 @@
         };
     };
 
+    zip_axis_constrain: zip_axis_constrain {
+        compatible = "zmk,input-processor-axis-constrain";
+        #input-processor-cells = <0>;
+        threshold = <10>;
+        sticky;
+        release-after-ms = <150>;
+    };
+
     trackball_listener: trackball_listener {
         compatible = "zmk,input-listener";
         status = "disabled";
@@ -76,6 +85,11 @@
         layers = <3>;
         input-processors = <&zip_xy_scaler 1 2>;
         process-next;
+        };
+
+        cardinal_snipe {
+        layers = <4>;
+        input-processors = <&zip_axis_constrain>, <&zip_xy_scaler 1 2>;
         };
 
         scroll {
