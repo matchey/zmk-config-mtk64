@@ -74,6 +74,7 @@
         threshold = <10>;
         sticky;
         release-after-ms = <150>;
+        track-remainders;
     };
 
     trackball_listener: trackball_listener {
@@ -82,14 +83,14 @@
         device = <&trackball_split>;
 
         snipe {
-        layers = <3>;
+        layers = <6>;
         input-processors = <&zip_xy_scaler 1 2>;
         process-next;
         };
 
         cardinal_snipe {
-        layers = <4>;
-        input-processors = <&zip_axis_constrain>, <&zip_xy_scaler 1 2>;
+        layers = <3>;
+        input-processors = <&zip_axis_constrain>, <&zip_xy_scaler 1 4>;
         };
 
         scroll {
