@@ -69,12 +69,9 @@
     };
 
     zip_axis_constrain: zip_axis_constrain {
-        compatible = "zmk,input-processor-axis-constrain";
-        #input-processor-cells = <0>;
         threshold = <10>;
-        sticky;
-        release-after-ms = <150>;
-        track-remainders;
+        /* sticky; */
+        /* release-after-ms = <150>; */
     };
 
     trackball_listener: trackball_listener {
