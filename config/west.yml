@@ -44,6 +44,6 @@ manifest:
       path: modules/prospector-zmk-module
     - name: zmk-input-processor-axis-constrain
       remote: matchey
-      revision: main
+      revision: v0.2.0
   self:
     path: config
