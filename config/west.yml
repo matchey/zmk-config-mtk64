@@ -30,8 +30,8 @@ manifest:
       remote: caksoylar
       revision: main
     - name: zmk-dongle-display
-      remote: mentako-ya
-      revision: mentako_zephyr-4.1
+      remote: englmaxi
+      revision: main
     # - name: prospector-zmk-module
     #   remote: carrefinho
     #   revision: core/zephyr-4-1 # xiao_ble instead of seeeduino_xiao_ble
