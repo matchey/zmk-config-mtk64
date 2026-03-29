@@ -221,7 +221,7 @@
             display-name = "DEF";
             bindings = <
 &kp ESCAPE      &kp N1    &kp N2  &kp N3      &kp N4      &kp N5                                                                                                               &kp N6      &kp N7  &kp N8  &kp N9  &kp N0     &kp BACKSPACE
-&kp GRAVE       &kp Q     &kp P   &kp U       &kp F       &kp SINGLE_QUOTE                                                                                                     &kp MINUS   &kp S   &kp N   &kp R   &kp Y      &kp UNDERSCORE
+&kp GRAVE       &kp Q     &kp P   &kp U       &kp F       &kp SINGLE_QUOTE                                                                                                     &kp MINUS   &kp N   &kp S   &kp R   &kp Y      &kp UNDERSCORE
 &kp SPACE       &kp E     &kp I   &kp A       &kp O       &double_tap_semi_colon                                                                                               &kp H       &kp J   &kp K   &kp L   &kp T      &kp B
 &kp LEFT_SHIFT  &kp Z     &kp X   &kp C       &kp V       &kp COMMA               &kp LEFT_ALT                                                          &kp RIGHT_GUI          &kp PERIOD  &kp D   &kp M   &kp G   &kp W      &kp RIGHT_SHIFT
 &kp LALT        &kp LGUI                                                          &double_tap_CTC_ctrl  &mo 4                      &mo 5                &double_tap_ARW_shift                                      &mkp LCLK  &mkp RCLK
