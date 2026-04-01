@@ -238,15 +238,15 @@
 
         modifiers {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                                                                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                                                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                                                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                     &trans                 &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                                  &double_tap_ctrl_alt  &kp LEFT_ALT          &kp RIGHT_GUI  &double_tap_shift_gui                                  &trans  &trans
-                        &trans  &trans                                &trans                &trans                                        &trans  &trans
-                                                                      &trans                &trans
-        &trans  &trans  &trans                                                                                                                    &trans  &trans  &trans
-                                                                      &trans        &trans  &trans
+&trans  &trans  &trans  &trans        &trans        &trans                                                                                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans        &trans        &trans                                                                                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans        &trans        &trans                                                                                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans        &trans        &trans  &trans                                                     &trans                 &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                                              &double_tap_ctrl_alt  &kp LEFT_ALT          &kp RIGHT_GUI  &double_tap_shift_gui                                  &trans  &trans
+                        &out OUT_USB  &out OUT_BLE                                &trans                &trans                                        &trans  &trans
+                                                                                  &trans                &trans
+        &trans  &trans  &trans                                                                                                                                &trans  &trans  &trans
+                                                                                  &trans        &trans  &trans
             >;
 
             label = "MDF";
