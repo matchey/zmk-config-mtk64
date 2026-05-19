@@ -146,6 +146,24 @@
             #binding-cells = <0>;
             bindings = <&mo 5>, <&kp RIGHT_SHIFT>;
         };
+
+        // The same finger (Press the modifier key on the same hand after moving the layer)
+
+        double_tap_CTC_alt: double_tap_CTC_alt {
+            compatible = "zmk,behavior-tap-dance";
+            label = "DOUBLE_TAP_CTC_ALT";
+            #binding-cells = <0>;
+            bindings = <&mo 2>, <&kp LEFT_ALT>;
+        };
+
+        // The same finger (Press the modifier key on the same hand after moving the layer)
+
+        double_tap_ARW_gui: double_tap_ARW_gui {
+            compatible = "zmk,behavior-tap-dance";
+            label = "DOUBLE_TAP_ARW_GUI";
+            #binding-cells = <0>;
+            bindings = <&mo 3>, <&kp RIGHT_GUI>;
+        };
     };
 };
 
