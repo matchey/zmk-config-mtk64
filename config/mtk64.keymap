@@ -76,6 +76,7 @@
         };
 
         // The same finger (Press the modifier keys on the same hand at the same time)
+
         double_tap_ctrl_alt: double_tap_ctrl_alt {
             compatible = "zmk,behavior-tap-dance";
             label = "DOUBLE_TAP_CTRL_ALT";
@@ -84,6 +85,7 @@
         };
 
         // The same finger (Press the modifier keys on the same hand at the same time)
+
         double_tap_shift_gui: double_tap_shift_gui {
             compatible = "zmk,behavior-tap-dance";
             label = "DOUBLE_TAP_SHIFT_GUI";
@@ -92,6 +94,7 @@
         };
 
         // The same key (Press the modifier key on the layer after moving)
+
         double_tap_CTC_ctrl: double_tap_CTC_ctrl {
             compatible = "zmk,behavior-tap-dance";
             label = "DOUBLE_TAP_CTC_CTRL";
@@ -100,6 +103,7 @@
         };
 
         // The same key (Press the modifier key on the layer after moving)
+
         double_tap_ARW_shift: double_tap_ARW_shift {
             compatible = "zmk,behavior-tap-dance";
             label = "DOUBLE_TAP_ARW_SHIFT";
@@ -108,6 +112,7 @@
         };
 
         // The same key (Press the modifier key on the layer after moving)
+
         double_tap_SNIPE_alt: double_tap_SNIPE_alt {
             compatible = "zmk,behavior-tap-dance";
             label = "DOUBLE_TAP_SNIPE_ALT";
@@ -116,6 +121,7 @@
         };
 
         // The same key (Press the modifier key on the layer after moving)
+
         double_tap_SMB_gui: double_tap_SMB_gui {
             compatible = "zmk,behavior-tap-dance";
             label = "DOUBLE_TAP_SMB_GUI";
@@ -124,6 +130,7 @@
         };
 
         // The same finger (Press the modifier key on the same hand after moving the layer)
+
         double_tap_SNP_ctrl: double_tap_SNP_ctrl {
             compatible = "zmk,behavior-tap-dance";
             label = "DOUBLE_TAP_SNP_CTRL";
@@ -132,13 +139,13 @@
         };
 
         // The same finger (Press the modifier key on the same hand after moving the layer)
+
         double_tap_SMB_shift: double_tap_SMB_shift {
             compatible = "zmk,behavior-tap-dance";
             label = "DOUBLE_TAP_SMB_SHIFT";
             #binding-cells = <0>;
             bindings = <&mo 5>, <&kp RIGHT_SHIFT>;
         };
-
     };
 };
 
@@ -257,15 +264,15 @@
         default_layer {
             display-name = "DEF";
             bindings = <
-&kp ESCAPE      &kp N1    &kp N2  &kp N3      &kp N4      &kp N5                                                                                                               &kp N6      &kp N7  &kp N8  &kp N9  &kp N0     &kp BACKSPACE
-&kp GRAVE       &kp Q     &kp P   &kp U       &kp F       &kp SINGLE_QUOTE                                                                                                     &kp MINUS   &kp N   &kp S   &kp R   &kp Y      &kp UNDERSCORE
-&kp SPACE       &kp E     &kp I   &kp A       &kp O       &double_tap_semi_colon                                                                                               &kp H       &kp J   &kp K   &kp L   &kp T      &kp B
-&kp LEFT_SHIFT  &kp Z     &kp X   &kp C       &kp V       &kp COMMA               &kp LEFT_ALT                                                          &kp RIGHT_GUI          &kp PERIOD  &kp D   &kp M   &kp G   &kp W      &kp RIGHT_SHIFT
-&kp LALT        &kp LGUI                                                          &double_tap_CTC_ctrl  &mo 4                      &mo 5                &double_tap_ARW_shift                                      &mkp LCLK  &mkp RCLK
-                                  &bt BT_PRV  &bt BT_NXT                                                &SNP_ctrl                  &SMB_shift                                              &none   &none
-                                                                                                        &mo 5                      &mo 5
-                &mo 2     &mo 6   &mo 5                                                                                                                                                            &mo 2   &mo 6   &mo 5
-                                                                                                        &kp LG(LEFT_ARROW)  &mo 1  &kp LG(RIGHT_ARROW)
+&kp ESCAPE      &kp N1    &kp N2  &kp N3      &kp N4      &kp N5                                                                                                                             &kp N6      &kp N7  &kp N8  &kp N9  &kp N0     &kp BACKSPACE
+&kp GRAVE       &kp Q     &kp P   &kp U       &kp F       &kp SINGLE_QUOTE                                                                                                                   &kp MINUS   &kp N   &kp S   &kp R   &kp Y      &kp UNDERSCORE
+&kp SPACE       &kp E     &kp I   &kp A       &kp O       &double_tap_semi_colon                                                                                                             &kp H       &kp J   &kp K   &kp L   &kp T      &kp B
+&kp LEFT_SHIFT  &kp Z     &kp X   &kp C       &kp V       &kp COMMA               &kp LEFT_ALT                                                                        &kp RIGHT_GUI          &kp PERIOD  &kp D   &kp M   &kp G   &kp W      &kp RIGHT_SHIFT
+&kp LALT        &kp LGUI                                                          &double_tap_CTC_ctrl  &double_tap_SNIPE_alt                    &double_tap_SMB_gui  &double_tap_ARW_shift                                      &mkp LCLK  &mkp RCLK
+                                  &bt BT_PRV  &bt BT_NXT                                                &SNP_ctrl                                &SMB_shift                                              &none   &none
+                                                                                                        &mo 5                                    &mo 5
+                &mo 2     &mo 6   &mo 5                                                                                                                                                                          &mo 2   &mo 6   &mo 5
+                                                                                                        &kp LG(LEFT_ARROW)     &kp RG(UP_ARROW)  &kp LG(RIGHT_ARROW)
             >;
 
             sensor-bindings =
