@@ -327,7 +327,7 @@
             label = "ARW_GUI";
         };
 
-        paste_txt_debug_log: paste_txt_debug_log {
+        paste_txt_d: paste_txt_d {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -340,7 +340,71 @@
                 <&macro_tap>,
                 <&kp LC(V)>;
 
-            label = "PASTE_TXT_DEBUG_LOG";
+            label = "PASTE_TXT_D";
+        };
+
+        paste_txt_m: paste_txt_m {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp LC(SEMICOLON)>,
+                <&macro_wait_time 50>,
+                <&macro_tap>,
+                <&kp LC(M)>,
+                <&macro_wait_time 50>,
+                <&macro_tap>,
+                <&kp LC(V)>;
+
+            label = "PASTE_TXT_M";
+        };
+
+        paste_txt_s: paste_txt_s {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp LC(SEMICOLON)>,
+                <&macro_wait_time 50>,
+                <&macro_tap>,
+                <&kp LC(S)>,
+                <&macro_wait_time 50>,
+                <&macro_tap>,
+                <&kp LC(V)>;
+
+            label = "PASTE_TXT_S";
+        };
+
+        paste_txt_r: paste_txt_r {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp LC(SEMICOLON)>,
+                <&macro_wait_time 50>,
+                <&macro_tap>,
+                <&kp LC(R)>,
+                <&macro_wait_time 50>,
+                <&macro_tap>,
+                <&kp LC(V)>;
+
+            label = "PASTE_TXT_R";
+        };
+
+        paste_txt_e: paste_txt_e {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp LC(SEMICOLON)>,
+                <&macro_wait_time 50>,
+                <&macro_tap>,
+                <&kp LC(E)>,
+                <&macro_wait_time 50>,
+                <&macro_tap>,
+                <&kp LC(V)>;
+
+            label = "PASTE_TXT_E";
         };
     };
 
