@@ -338,7 +338,9 @@
                 <&kp LC(D)>,
                 <&macro_wait_time 50>,
                 <&macro_tap>,
-                <&kp LC(V)>;
+                <&kp LC(LS(V))>,
+                <&macro_tap_time 50>,
+                <&kp ENTER>;
 
             label = "PASTE_TXT_D";
         };
@@ -351,10 +353,7 @@
                 <&kp LC(SEMICOLON)>,
                 <&macro_wait_time 50>,
                 <&macro_tap>,
-                <&kp LC(M)>,
-                <&macro_wait_time 50>,
-                <&macro_tap>,
-                <&kp LC(V)>;
+                <&kp LC(M)>;
 
             label = "PASTE_TXT_M";
         };
@@ -367,10 +366,7 @@
                 <&kp LC(SEMICOLON)>,
                 <&macro_wait_time 50>,
                 <&macro_tap>,
-                <&kp LC(S)>,
-                <&macro_wait_time 50>,
-                <&macro_tap>,
-                <&kp LC(V)>;
+                <&kp LC(S)>;
 
             label = "PASTE_TXT_S";
         };
@@ -399,10 +395,7 @@
                 <&kp LC(SEMICOLON)>,
                 <&macro_wait_time 50>,
                 <&macro_tap>,
-                <&kp LC(E)>,
-                <&macro_wait_time 50>,
-                <&macro_tap>,
-                <&kp LC(V)>;
+                <&kp LC(E)>;
 
             label = "PASTE_TXT_E";
         };
